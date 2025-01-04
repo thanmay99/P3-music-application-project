@@ -1,0 +1,8 @@
+.app-container {
+  background: linear-gradient(135deg, #76817a, #191414);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: 'Spotify', sans-serif;
+}

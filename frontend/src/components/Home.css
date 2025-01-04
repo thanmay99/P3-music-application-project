@@ -1,0 +1,97 @@
+body {
+  background: linear-gradient(135deg, #000000, #121212);
+  color: #ffffff;
+  font-family: 'Spotify', sans-serif;
+  padding: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: linear-gradient(135deg, #1e1e1e, #252525);
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+
+.card .card-title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.card .card-text {
+  color: #b3b3b3;
+  font-size: 1rem;
+}
+
+.card img {
+  border-radius: 15px;
+}
+
+.card .audio-controls audio {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #1db954, #1ed760);
+  border: none;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #1ed760;
+}
+
+.btn-outline-success {
+  border-color: #1db954;
+  color: #1db954;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-success:hover {
+  background: #1db954;
+  color: white;
+}
+
+.navbar-custom {
+  background: #1e1e1e;
+  border-bottom: 1px solid #282828;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: white;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #1db954;
+}
+
+.spinner-border {
+  color: #1db954;
+}
+
+.animated-text {
+  color: white;
+}
+
+.artistic-img {
+  border-radius: 12px;
+}
+
+.text-danger {
+  color: #ff4c4c !important;
+}
